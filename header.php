@@ -2,7 +2,6 @@
 <html lang="en">
 	<head>
 		<meta name="fragment" content="!">
-		<meta name="google-site-verification" content="BWGcDQ8RmE-4EWAKdoCe9cyCqa08vpN49uzaLfc9xn8" />
 		<meta charset="UTF-8" />
 		<title>ezBizNYC</title>
 		<?php wp_head(); ?>
