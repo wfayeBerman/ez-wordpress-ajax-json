@@ -49,7 +49,7 @@
 	        )
 	    ),
 	    "people_sample_date_meta" => array(
-	    	"id" => "people_meta",
+	    	"id" => "people_sample_date_meta",
 	        "name" => "Sample Date",
 	        "post_type" => "people",
 	        "position" => "side",
