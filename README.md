@@ -13,7 +13,7 @@ http://ezbiznyc.com/
 
 htaccess sample
 RewriteEngine On
-RewriteBase /~nytech/
+RewriteBase /~ezbiznyc/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
