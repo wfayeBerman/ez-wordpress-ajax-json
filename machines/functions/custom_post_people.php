@@ -193,7 +193,7 @@
 	// }
 
 // LISTING FUNCTION
-	function listPeople($context){
+	function listPeople($context, $idArray = null)){
 		global $post;
 		global $peopleMetaBoxArray;
 		
@@ -234,6 +234,18 @@
 					'meta_key'  => 'custom_order',
 					'orderby'  => 'meta_value_num',
 					'nopaging' => true
+				);
+				return returnData($args, $peopleMetaBoxArray, 'array');
+			break;
+
+			case 'rest':
+				$args = array(
+					'post_type'  => 'people',
+					'order'   => 'ASC',
+					'meta_key'  => 'custom_order',
+					'orderby'  => 'meta_value_num',
+					'nopaging' => true,
+					'post__in' => $idArray
 				);
 				return returnData($args, $peopleMetaBoxArray, 'array');
 			break;
