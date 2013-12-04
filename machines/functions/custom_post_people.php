@@ -193,7 +193,7 @@
 	// }
 
 // LISTING FUNCTION
-	function listPeople($context, $idArray = null)){
+	function listPeople($context, $idArray = null){
 		global $post;
 		global $peopleMetaBoxArray;
 		
